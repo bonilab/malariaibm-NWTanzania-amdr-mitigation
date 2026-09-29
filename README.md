@@ -1,6 +1,6 @@
 # malariaibm-NWTanzania-amdr-mitigation
 
-Analysis code, local input data, generated figures, and manuscript materials for modelling antimalarial drug-resistance mitigation strategies in northwest Tanzania.
+Analysis code, local input data, and generated figures for modelling antimalarial drug-resistance mitigation strategies in northwest Tanzania.
 
 This repository contains the analyses supporting the manuscript:
 
@@ -67,7 +67,7 @@ These scenarios are used to evaluate the robustness of projected treatment outco
 
 ## Repository structure
 
-The current project layout separates analysis code, local datasets, generated figures, manuscript files, and table destinations.
+The current project layout separates analysis code, local datasets, generated figures, and table destinations.
 
 ```text
 .
@@ -76,7 +76,7 @@ The current project layout separates analysis code, local datasets, generated fi
 ├── model/
 │   └── source_code/       # Placeholder for the C++ model source snapshot
 ├── scenarios/
-│   └── inputs/             # Scenario inputs and configuration files
+│   └── inputs/             # Selected inputs for scenarios 004–007, by strategy
 ├── analysis/
 │   ├── README.md           # Figure workflows, inputs, outputs, and run commands
 │   ├── config/             # Plot labels and annotation configuration
@@ -88,17 +88,16 @@ The current project layout separates analysis code, local datasets, generated fi
 ├── figures/
 │   ├── main/               # Main-text figures
 │   └── supplementary/     # Supplementary figures
-├── publication/            # Manuscript and supplementary document drafts
 └── tables/                 # Reserved output locations
     ├── main/
     └── supplementary/
 ```
 
-The scenario, model snapshot, and table directories are currently placeholders awaiting files. The model environment specification has not yet been added.
+The C++ source snapshot and table directories are still placeholders. Each scenario input folder preserves the source layout: `scenarios/inputs/<scenario>/<strategy>/input/`. Only `kag_beta.asc`, `kag_districts.asc`, `kag_initial_population.asc`, `kag_input.yml`, `kag_seasonality.csv`, and `kag_treatment.asc` are included there; simulation databases and generated CSVs are stored elsewhere. The model environment specification has not yet been added.
 
 ## Reproducibility
 
-The analysis scripts, figure outputs, and raw and processed datasets are organized in this repository. Reproducing a figure requires the corresponding inputs under `analysis/data/` at the paths listed in `analysis/README.md`. The analysis README also gives the script to run for each output.
+The analysis scripts, figure outputs, and raw and processed datasets are organized in this repository. Reproducing a figure requires the corresponding inputs under `analysis/data/` or `scenarios/inputs/` at the paths listed in `analysis/README.md` and this README. The analysis README also gives the script to run for each output.
 
 A tagged release corresponding to the submitted or published manuscript will be created so that the exact analysis version remains reproducible independently of subsequent development.
 
@@ -128,7 +127,7 @@ A complete citation will be added after publication.
 
 ## Development status
 
-This repository currently contains analysis scripts, figure outputs, analysis documentation, local data folders, and manuscript drafts for the northwest Tanzania antimalarial drug-resistance mitigation study. The C++ model source snapshot and its environment specification are still to be added under `model/`.
+This repository currently contains analysis scripts, figure outputs, analysis documentation, and local data folders for the northwest Tanzania antimalarial drug-resistance mitigation study. The C++ model source snapshot and its environment specification are still to be added under `model/`.
 
 ## Contact
 
