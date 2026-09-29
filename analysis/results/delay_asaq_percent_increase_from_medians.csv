@@ -1,0 +1,17 @@
+scenario_set,description,delay,baseline_median_total_treatment_failures,delay_median_total_treatment_failures,percent_increase_vs_immediate_asaq
+004,47% Private Market - Normal 7686,1 year delay,1988612.0,2162972.0,8.8
+004,47% Private Market - Normal 7686,2 year delay,1988612.0,2348402.0,18.1
+004,47% Private Market - Normal 7686,3 year delay,1988612.0,2566500.0,29.1
+004,47% Private Market - Normal 7686,4 year delay,1988612.0,2824460.0,42.0
+005,10% Private Market - Normal 7686,1 year delay,530336.0,678880.0,28.0
+005,10% Private Market - Normal 7686,2 year delay,530336.0,840308.0,58.4
+005,10% Private Market - Normal 7686,3 year delay,530336.0,1060750.0,100.0
+005,10% Private Market - Normal 7686,4 year delay,530336.0,1322688.0,149.4
+006,47% Private Market - Lower 7686,1 year delay,1975030.0,2155080.0,9.1
+006,47% Private Market - Lower 7686,2 year delay,1975030.0,2361290.0,19.6
+006,47% Private Market - Lower 7686,3 year delay,1975030.0,2596266.0,31.5
+006,47% Private Market - Lower 7686,4 year delay,1975030.0,2845280.0,44.1
+007,10% Private Market - Lower 7686,1 year delay,505500.0,653600.0,29.3
+007,10% Private Market - Lower 7686,2 year delay,505500.0,817716.0,61.8
+007,10% Private Market - Lower 7686,3 year delay,505500.0,1024108.0,102.6
+007,10% Private Market - Lower 7686,4 year delay,505500.0,1339548.0,165.0

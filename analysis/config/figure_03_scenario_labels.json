@@ -1,0 +1,524 @@
+{
+  "000-status-quo": {
+    "label": "AL\nStatus Quo",
+    "color": "#80b1d3",
+    "position": 0,
+    "al_used": 100
+  },
+  "001-basic-ASAQ": {
+    "label": "Switch to\nASAQ",
+    "color": "#80b1d3",
+    "position": 0,
+    "al_used": 0
+  },
+  "002-basic-DHAPPQ": {
+    "label": "Switch to\nDHAPPQ",
+    "color": "#80b1d3",
+    "position": 0,
+    "al_used": 0
+  },
+  "003-Cycling-1y-AL-ASAQ": {
+    "label": "1y AL\n1y ASAQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 50
+  },
+  "004-Cycling-1y-AL-DHAPPQ": {
+    "label": "1y AL\n1y DHAPPQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 50
+  },
+  "005-Cycling-1y-ASAQ-AL": {
+    "label": "1y ASAQ\n1y AL",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 50
+  },
+  "006-Cycling-1y-ASAQ-DHAPPQ": {
+    "label": "1y ASAQ\n1y DHAPPQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 0
+  },
+  "007-Cycling-1y-DHAPPQ-AL": {
+    "label": "1y DHAPPQ\n1y AL",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 50
+  },
+  "008-Cycling-1y-DHAPPQ-ASAQ": {
+    "label": "1y DHAPPQ\n1y ASAQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 0
+  },
+  "009-Cycling-1y-AL-ASAQ-DHAPPQ": {
+    "label": "1y AL\n1y ASAQ\n1y DHAPPQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 33
+  },
+  "010-Cycling-1y-AL-DHAPPQ-ASAQ": {
+    "label": "1y AL\n1y DHAPPQ\n1y ASAQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 33
+  },
+  "011-Cycling-1y-ASAQ-AL-DHAPPQ": {
+    "label": "1y ASAQ\n1y AL\n1y DHAPPQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 33
+  },
+  "012-Cycling-1y-ASAQ-DHAPPQ-AL": {
+    "label": "1y ASAQ\n1y DHAPPQ\n1y AL",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 33
+  },
+  "013-Cycling-1y-DHAPPQ-AL-ASAQ": {
+    "label": "1y DHAPPQ\n1y AL\n1y ASAQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 33
+  },
+  "014-Cycling-1y-DHAPPQ-ASAQ-AL": {
+    "label": "1y DHAPPQ\n1y ASAQ\n1y AL",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 33
+  },
+  "015-Cycling-2y-AL-ASAQ": {
+    "label": "2y AL\n2y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 66
+  },
+  "016-Cycling-2y-AL-DHAPPQ": {
+    "label": "2y AL\n2y DHAPPQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 66
+  },
+  "017-Cycling-2y-ASAQ-AL": {
+    "label": "2y ASAQ\n2y AL",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "018-Cycling-2y-ASAQ-DHAPPQ": {
+    "label": "2y ASAQ\n2y DHAPPQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "019-Cycling-2y-DHAPPQ-AL": {
+    "label": "2y DHAPPQ\n2y AL",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "020-Cycling-2y-DHAPPQ-ASAQ": {
+    "label": "2y DHAPPQ\n2y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "021-Cycling-2y-AL-ASAQ-DHAPPQ": {
+    "label": "2y AL\n2y ASAQ\n2y DHAPPQ",
+    "color": "#8dd3c7",
+    "position": 0,
+    "al_used": 33
+  },
+  "022-Cycling-2y-AL-DHAPPQ-ASAQ": {
+    "label": "2y AL\n2y DHAPPQ\n2y ASAQ",
+    "color": "#8dd3c7",
+    "position": 0,
+    "al_used": 33
+  },
+  "023-Cycling-2y-ASAQ-AL-DHAPPQ": {
+    "label": "2y ASAQ\n2y AL\n2y DHAPPQ",
+    "color": "#8dd3c7",
+    "position": 0,
+    "al_used": 33
+  },
+  "024-Cycling-2y-ASAQ-DHAPPQ-AL": {
+    "label": "2y ASAQ\n2y DHAPPQ\n2y AL",
+    "color": "#8dd3c7",
+    "position": 0,
+    "al_used": 33
+  },
+  "025-Cycling-2y-DHAPPQ-AL-ASAQ": {
+    "label": "2y DHAPPQ\n2y AL\n2y ASAQ",
+    "color": "#8dd3c7",
+    "position": 0,
+    "al_used": 33
+  },
+  "026-Cycling-2y-DHAPPQ-ASAQ-AL": {
+    "label": "2y DHAPPQ\n2y ASAQ\n2y AL",
+    "color": "#8dd3c7",
+    "position": 0,
+    "al_used": 33
+  },
+  "028-Cycling-3y-AL-DHAPPQ": {
+    "label": "3y AL\n3y DHAPPQ",
+    "color": "#f4a460",
+    "position": 0,
+    "al_used": 50
+  },
+  "029-Cycling-3y-ASAQ-AL": {
+    "label": "3y ASAQ\n3y AL",
+    "color": "#f4a460",
+    "position": 0,
+    "al_used": 50
+  },
+  "030-Cycling-3y-ASAQ-DHAPPQ": {
+    "label": "3y ASAQ\n3y DHAPPQ",
+    "color": "#f4a460",
+    "position": 0,
+    "al_used": 0
+  },
+  "031-Cycling-3y-DHAPPQ-AL": {
+    "label": "3y DHAPPQ\n3y AL",
+    "color": "#f4a460",
+    "position": 0,
+    "al_used": 50
+  },
+  "032-Cycling-3y-DHAPPQ-ASAQ": {
+    "label": "3y DHAPPQ\n3y ASAQ",
+    "color": "#f4a460",
+    "position": 0,
+    "al_used": 0
+  },
+  "040-Cycling-4y-AL-DHAPPQ": {
+    "label": "4y AL\n2y DHAPPQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 66
+  },
+  "041-Cycling-4y-ASAQ-AL": {
+    "label": "4y ASAQ\n2y AL",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 33
+  },
+  "042-Cycling-4y-ASAQ-DHAPPQ": {
+    "label": "4y ASAQ\n2y DHAPPQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 0
+  },
+  "043-Cycling-4y-DHAPPQ-AL": {
+    "label": "4y DHAPPQ\n2y AL",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 33
+  },
+  "044-Cycling-4y-DHAPPQ-ASAQ": {
+    "label": "4y DHAPPQ\n2y ASAQ",
+    "color": "#bebada",
+    "position": 0,
+    "al_used": 0
+  },
+  "051-mft-AL25-ASAQ75": {
+    "label": "AL 25%\nASAQ 75%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 25
+  },
+  "052-mft-AL25-DHAPPQ75": {
+    "label": "AL 25%\nDHAPPQ 75%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 25
+  },
+  "053-mft-ASAQ25-DHAPPQ75": {
+    "label": "ASAQ 25%\nDHAPPQ 75%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 25
+  },
+  "054-mft-AL75-ASAQ25": {
+    "label": "AL 75%\nASAQ 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 75
+  },
+  "055-mft-AL75-DHAPPQ25": {
+    "label": "AL 75%\nDHAPPQ 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 75
+  },
+  "056-mft-ASAQ75-DHAPPQ25": {
+    "label": "ASAQ 75%\nDHAPPQ 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "057-mft-AL50-ASAQ50": {
+    "label": "AL 50%\nASAQ 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 50
+  },
+  "058-mft-AL50-DHAPPQ50": {
+    "label": "AL 50%\nDHAPPQ 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 50
+  },
+  "059-mft-ASAQ50-DHAPPQ50": {
+    "label": "ASAQ 50%\nDHAPPQ 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "060-mft-AL-ASAQ-DHAPPQ": {
+    "label": "AL 33%\nASAQ 33%\nDHAPPQ 33%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "061-tact-AL4y-ALAQ": {
+    "label": "4y AL\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 66
+  },
+  "062-tact-ASAQ4y-ALAQ": {
+    "label": "4y ASAQ\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "063-tact-DHAPPQ4y-ALAQ": {
+    "label": "4y DHAPPQ\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "064-tact-AL2y-ASAQ2y-ALAQ": {
+    "label": "2y AL\n2y ASAQ\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "065-tact-AL2y-DHAPPQ2y-ALAQ": {
+    "label": "2y AL\n2y DHAPPQ\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "066-tact-ASAQ2y-AL2y-ALAQ": {
+    "label": "2y ASAQ\n2y AL\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "067-tact-ASAQ2y-DHAPPQ2y-ALAQ": {
+    "label": "2y ASAQ\n2y DHAPPQ\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "068-tact-DHAPPQ2y-AL2y-ALAQ": {
+    "label": "2y DHAPPQ\n2y AL\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "069-tact-DHAPPQ2y-ASAQ2y-ALAQ": {
+    "label": "2y DHAPPQ\n2y ASAQ\n2y ALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "070-tact-ALAQ-immediate": {
+    "label": "Switch to\nALAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "071-mft-AL_75-ASPY85_25": {
+    "label": "AL 75%\nASPY85 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 75
+  },
+  "072-mft-AL_75-ASPY75_25": {
+    "label": "AL 75%\nASPY75 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 75
+  },
+  "073-mft-AL_75-ASPY65_25": {
+    "label": "AL 75%\nASPY65 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 75
+  },
+  "074-mft-AL_50-ASPY85_50": {
+    "label": "AL 50%\nASPY85 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 50
+  },
+  "075-mft-AL_50-ASPY75_50": {
+    "label": "AL 50%\nASPY75 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 50
+  },
+  "076-mft-AL_50-ASPY65_50": {
+    "label": "AL 50%\nASPY65 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 50
+  },
+  "077-mft-ASAQ_75-ASPY85_25": {
+    "label": "ASAQ 75%\nASPY85 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "078-mft-ASAQ_75-ASPY75_25": {
+    "label": "ASAQ 75%\nASPY75 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "079-mft-ASAQ_75-ASPY65_25": {
+    "label": "ASAQ 75%\nASPY65 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "080-mft-ASAQ_50-ASPY85_50": {
+    "label": "ASAQ 50%\nASPY85 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "081-mft-ASAQ_50-ASPY75_50": {
+    "label": "ASAQ 50%\nASPY75 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "082-mft-ASAQ_50-ASPY65_50": {
+    "label": "ASAQ 50%\nASPY65 50%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "083-mft-AL-DHAPPQ-ASPY85": {
+    "label": "AL 33%\nDHAPPQ 33%\nASPY85 33%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "084-mft-AL-DHAPPQ-ASPY75": {
+    "label": "AL 33%\nDHAPPQ 33%\nASPY75 33%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "085-mft-AL-DHAPPQ-ASPY65": {
+    "label": "AL 33%\nDHAPPQ 33%\nASPY65 33%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "086-mft-ASAQ-DHAPPQ-ASPY85": {
+    "label": "ASAQ 33%\nDHAPPQ 33%\nASPY85 33%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "087-mft-ASAQ-DHAPPQ-ASPY75": {
+    "label": "ASAQ 33%\nDHAPPQ 33%\nASPY75 33%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "088-mft-ASAQ-DHAPPQ-ASPY65": {
+    "label": "ASAQ 33%\nDHAPPQ 33%\nASPY65 33%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "089-mft-AL-ASAQ-DHAPPQ-ASPY85": {
+    "label": "AL 25%\nASAQ 25%\nDHAPPQ 25%\nASPY85 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 25
+  },
+  "090-mft-AL-ASAQ-DHAPPQ-ASPY75": {
+    "label": "AL 25%\nASAQ 25%\nDHAPPQ 25%\nASPY75 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 25
+  },
+  "091-mft-AL-ASAQ-DHAPPQ-ASPY65": {
+    "label": "AL 25%\nASAQ 25%\nDHAPPQ 25%\nASPY65 25%",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 25
+  },
+  "093-region-specific-Kagera-ASAQ-Others-ASAQ-Delay-1y": {
+    "label": "Kagera\nASAQ first\n others 1y delay",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 12.5
+  },
+  "094-region-specific-Kagera-ASAQ-Others-ASAQ-Delay-2y": {
+    "label": "Kagera\nASAQ first\n others 2y delay",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 25
+  },
+  "095-region-specific-Kagera-DHAPPQ-Others-ASAQ-Delay-0y": {
+    "label": "Kagera\nDHAPPQ first\n others 6y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 0
+  },
+  "096-region-specific-Kagera-DHAPPQ-Others-ASAQ-Delay-1y": {
+    "label": "Kagera\nDHAPPQ first\n others 1y AL - 5y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 12.5
+  },
+  "097-region-specific-Kagera-DHAPPQ-Others-ASAQ-Delay-2y": {
+    "label": "Kagera\nDHAPPQ first\n others 2y AL - 4y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 25
+  },
+  "098-Delay-ASAQ-1y": {
+    "label": "1y AL\n5y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 16.66
+  },
+  "099-Delay-ASAQ-2y": {
+    "label": "2y AL\n4y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 33
+  },
+  "100-Delay-ASAQ-3y": {
+    "label": "3y AL\n3y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 50
+  },
+  "101-Delay-ASAQ-4y": {
+    "label": "4y AL\n2y ASAQ",
+    "color": "#fb8072",
+    "position": 0,
+    "al_used": 66
+  }
+}

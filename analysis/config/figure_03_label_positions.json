@@ -1,0 +1,266 @@
+{
+  "004": {
+    "002-basic-DHAPPQ": {
+      "x_pos": 0.38,
+      "y_pos": 41000
+    },
+    "070-tact-ALAQ-immediate": {
+      "x_pos": 0.38,
+      "y_pos": 22000
+    },
+    "093-region-specific-Kagera-ASAQ-Others-ASAQ-Delay-1y": {
+      "x_pos": 1.0,
+      "y_pos": 26500
+    },
+    "096-region-specific-Kagera-DHAPPQ-Others-ASAQ-Delay-1y": {
+      "x_pos": 1.0,
+      "y_pos": 35500
+    },
+    "098-Delay-ASAQ-1y": {
+      "x_pos": 2.0,
+      "y_pos": 27500
+    },
+    "094-region-specific-Kagera-ASAQ-Others-ASAQ-Delay-2y": {
+      "x_pos": 3.0,
+      "y_pos": 28300
+    },
+    "052-mft-AL25-DHAPPQ75": {
+      "x_pos": 3.0,
+      "y_pos": 41000
+    },
+    "064-tact-AL2y-ASAQ2y-ALAQ": {
+      "x_pos": 4.0,
+      "y_pos": 27900
+    },
+    "043-Cycling-4y-DHAPPQ-AL": {
+      "x_pos": 4.0,
+      "y_pos": 43700
+    },
+    "100-Delay-ASAQ-3y": {
+      "x_pos": 5.0,
+      "y_pos": 32800
+    },
+    "031-Cycling-3y-DHAPPQ-AL": {
+      "x_pos": 5.0,
+      "y_pos": 44800
+    },
+    "061-tact-AL4y-ALAQ": {
+      "x_pos": 6.0,
+      "y_pos": 34000
+    },
+    "016-Cycling-2y-AL-DHAPPQ": {
+      "x_pos": 6.0,
+      "y_pos": 46000
+    },
+    "054-mft-AL75-ASAQ25": {
+      "x_pos": 7.0,
+      "y_pos": 37500
+    },
+    "073-mft-AL_75-ASPY65_25": {
+      "x_pos": 7.0,
+      "y_pos": 48000
+    },
+    "000-status-quo": {
+      "x_pos": 8.0,
+      "y_pos": 42500
+    }
+  },
+  "005": {
+    "002-basic-DHAPPQ": {
+      "x_pos": 0.38,
+      "y_pos": 30000
+    },
+    "070-tact-ALAQ-immediate": {
+      "x_pos": 0.38,
+      "y_pos": 3000
+    },
+    "093-region-specific-Kagera-ASAQ-Others-ASAQ-Delay-1y": {
+      "x_pos": 1.0,
+      "y_pos": 6000
+    },
+    "096-region-specific-Kagera-DHAPPQ-Others-ASAQ-Delay-1y": {
+      "x_pos": 1.0,
+      "y_pos": 17000
+    },
+    "098-Delay-ASAQ-1y": {
+      "x_pos": 2.0,
+      "y_pos": 6500
+    },
+    "091-mft-AL-ASAQ-DHAPPQ-ASPY65": {
+      "x_pos": 3.0,
+      "y_pos": 5500
+    },
+    "052-mft-AL25-DHAPPQ75": {
+      "x_pos": 3.0,
+      "y_pos": 29000
+    },
+    "066-tact-ASAQ2y-AL2y-ALAQ": {
+      "x_pos": 4.0,
+      "y_pos": 6500
+    },
+    "043-Cycling-4y-DHAPPQ-AL": {
+      "x_pos": 4.0,
+      "y_pos": 25500
+    },
+    "005-Cycling-1y-ASAQ-AL": {
+      "x_pos": 5.0,
+      "y_pos": 9000
+    },
+    "031-Cycling-3y-DHAPPQ-AL": {
+      "x_pos": 5.0,
+      "y_pos": 28000
+    },
+    "061-tact-AL4y-ALAQ": {
+      "x_pos": 6.0,
+      "y_pos": 12000
+    },
+    "016-Cycling-2y-AL-DHAPPQ": {
+      "x_pos": 6.0,
+      "y_pos": 33500
+    },
+    "054-mft-AL75-ASAQ25": {
+      "x_pos": 7.0,
+      "y_pos": 13000
+    },
+    "073-mft-AL_75-ASPY65_25": {
+      "x_pos": 7.0,
+      "y_pos": 40000
+    },
+    "000-status-quo": {
+      "x_pos": 8.0,
+      "y_pos": 19000
+    }
+  },
+  "006": {
+    "002-basic-DHAPPQ": {
+      "x_pos": 0.38,
+      "y_pos": 41000
+    },
+    "070-tact-ALAQ-immediate": {
+      "x_pos": 0.38,
+      "y_pos": 22000
+    },
+    "093-region-specific-Kagera-ASAQ-Others-ASAQ-Delay-1y": {
+      "x_pos": 1.0,
+      "y_pos": 26500
+    },
+    "096-region-specific-Kagera-DHAPPQ-Others-ASAQ-Delay-1y": {
+      "x_pos": 1.0,
+      "y_pos": 35500
+    },
+    "098-Delay-ASAQ-1y": {
+      "x_pos": 2.0,
+      "y_pos": 27500
+    },
+    "094-region-specific-Kagera-ASAQ-Others-ASAQ-Delay-2y": {
+      "x_pos": 3.0,
+      "y_pos": 28300
+    },
+    "052-mft-AL25-DHAPPQ75": {
+      "x_pos": 3.0,
+      "y_pos": 42500
+    },
+    "064-tact-AL2y-ASAQ2y-ALAQ": {
+      "x_pos": 4.0,
+      "y_pos": 27500
+    },
+    "043-Cycling-4y-DHAPPQ-AL": {
+      "x_pos": 4.0,
+      "y_pos": 42500
+    },
+    "005-Cycling-1y-ASAQ-AL": {
+      "x_pos": 5.0,
+      "y_pos": 33000
+    },
+    "031-Cycling-3y-DHAPPQ-AL": {
+      "x_pos": 5.0,
+      "y_pos": 43000
+    },
+    "061-tact-AL4y-ALAQ": {
+      "x_pos": 6.0,
+      "y_pos": 34500
+    },
+    "016-Cycling-2y-AL-DHAPPQ": {
+      "x_pos": 6.0,
+      "y_pos": 46000
+    },
+    "054-mft-AL75-ASAQ25": {
+      "x_pos": 7.0,
+      "y_pos": 37500
+    },
+    "071-mft-AL_75-ASPY85_25": {
+      "x_pos": 7.0,
+      "y_pos": 49000
+    },
+    "000-status-quo": {
+      "x_pos": 8.0,
+      "y_pos": 43500
+    }
+  },
+  "007": {
+    "002-basic-DHAPPQ": {
+      "x_pos": 0.38,
+      "y_pos": 30000
+    },
+    "070-tact-ALAQ-immediate": {
+      "x_pos": 0.38,
+      "y_pos": 3000
+    },
+    "093-region-specific-Kagera-ASAQ-Others-ASAQ-Delay-1y": {
+      "x_pos": 1.0,
+      "y_pos": 6000
+    },
+    "096-region-specific-Kagera-DHAPPQ-Others-ASAQ-Delay-1y": {
+      "x_pos": 1.0,
+      "y_pos": 19000
+    },
+    "098-Delay-ASAQ-1y": {
+      "x_pos": 2.0,
+      "y_pos": 6500
+    },
+    "089-mft-AL-ASAQ-DHAPPQ-ASPY85": {
+      "x_pos": 3.0,
+      "y_pos": 5000
+    },
+    "052-mft-AL25-DHAPPQ75": {
+      "x_pos": 3.0,
+      "y_pos": 27000
+    },
+    "064-tact-AL2y-ASAQ2y-ALAQ": {
+      "x_pos": 4.0,
+      "y_pos": 5500
+    },
+    "043-Cycling-4y-DHAPPQ-AL": {
+      "x_pos": 4.0,
+      "y_pos": 30500
+    },
+    "005-Cycling-1y-ASAQ-AL": {
+      "x_pos": 5.0,
+      "y_pos": 9000
+    },
+    "031-Cycling-3y-DHAPPQ-AL": {
+      "x_pos": 5.0,
+      "y_pos": 29000
+    },
+    "061-tact-AL4y-ALAQ": {
+      "x_pos": 6.0,
+      "y_pos": 11000
+    },
+    "040-Cycling-4y-AL-DHAPPQ": {
+      "x_pos": 6.0,
+      "y_pos": 34500
+    },
+    "054-mft-AL75-ASAQ25": {
+      "x_pos": 7.0,
+      "y_pos": 12000
+    },
+    "073-mft-AL_75-ASPY65_25": {
+      "x_pos": 7.0,
+      "y_pos": 33000
+    },
+    "000-status-quo": {
+      "x_pos": 8.0,
+      "y_pos": 18000
+    }
+  }
+}

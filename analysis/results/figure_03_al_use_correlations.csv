@@ -1,0 +1,5 @@
+scenario_set,description,n_simulations,pearson_r,p_value
+004,"47% private market, primary baseline",8700,0.899691906225,<2.2e-16
+005,"10% private market, primary baseline",8700,0.752353792562,<2.2e-16
+006,"47% private market, alternative baseline",8700,0.900636496873,<2.2e-16
+007,"10% private market, alternative baseline",8700,0.745332825252,<2.2e-16

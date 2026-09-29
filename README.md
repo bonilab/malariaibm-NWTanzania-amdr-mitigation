@@ -1,6 +1,6 @@
 # malariaibm-NWTanzania-amdr-mitigation
 
-Code, input data, simulation outputs, and analysis workflows for modelling antimalarial drug-resistance mitigation strategies in northwest Tanzania.
+Analysis code, local input data, generated figures, and manuscript materials for modelling antimalarial drug-resistance mitigation strategies in northwest Tanzania.
 
 This repository contains the analyses supporting the manuscript:
 
@@ -67,58 +67,38 @@ These scenarios are used to evaluate the robustness of projected treatment outco
 
 ## Repository structure
 
-The repository is organized to separate model configuration, simulation outputs, analysis code, and manuscript figures.
+The current project layout separates analysis code, local datasets, generated figures, manuscript files, and table destinations.
 
 ```text
 .
+├── .gitignore              # Excludes Python caches and temporary files
 ├── README.md
-├── LICENSE
-├── environment/
-│
 ├── model/
-│   ├── config/
-│   └── ...
-│
-├── data/
-│   ├── input/
-│   ├── calibration/
-│   └── ...
-│
+│   └── source_code/       # Placeholder for the C++ model source snapshot
 ├── scenarios/
-│   ├── 004/
-│   ├── 005/
-│   ├── 006/
-│   └── 007/
-│
+│   └── inputs/             # Scenario inputs and configuration files
 ├── analysis/
-│   ├── treatment_failures/
-│   ├── genotype_frequencies/
-│   ├── calibration/
-│   └── ...
-│
+│   ├── README.md           # Figure workflows, inputs, outputs, and run commands
+│   ├── config/             # Plot labels and annotation configuration
+│   ├── data/
+│   │   ├── raw/            # Local raw inputs, grouped by figure or shared use
+│   │   └── processed/      # Local processed inputs, grouped by scenario or figure
+│   ├── results/            # Derived summaries and analysis tables
+│   └── scripts/            # Figure-generation and analysis scripts
 ├── figures/
-│   ├── main/
-│   └── supplementary/
-│
-└── tables/
+│   ├── main/               # Main-text figures
+│   └── supplementary/     # Supplementary figures
+├── publication/            # Manuscript and supplementary document drafts
+└── tables/                 # Reserved output locations
     ├── main/
     └── supplementary/
 ```
 
-The exact directory structure may evolve as the repository is finalized for publication.
+The scenario, model snapshot, and table directories are currently placeholders awaiting files. The model environment specification has not yet been added.
 
 ## Reproducibility
 
-The repository is intended to contain the materials required to reproduce the principal analyses reported in the manuscript, including:
-
-- model configuration files;
-- scenario definitions;
-- analysis scripts;
-- plotting scripts;
-- processed simulation outputs underlying manuscript figures and tables; and
-- documentation linking repository outputs to manuscript figures and tables.
-
-Large raw simulation outputs may be archived separately if they exceed practical GitHub storage limits.
+The analysis scripts, figure outputs, and raw and processed datasets are organized in this repository. Reproducing a figure requires the corresponding inputs under `analysis/data/` at the paths listed in `analysis/README.md`. The analysis README also gives the script to run for each output.
 
 A tagged release corresponding to the submitted or published manuscript will be created so that the exact analysis version remains reproducible independently of subsequent development.
 
@@ -148,9 +128,7 @@ A complete citation will be added after publication.
 
 ## Development status
 
-This repository contains the modelling, data-processing, and analysis materials for the northwest Tanzania antimalarial drug-resistance mitigation study.
-
-Code, processed data, simulation outputs, and manuscript figure-generation workflows will be added as the repository is finalized for publication.
+This repository currently contains analysis scripts, figure outputs, analysis documentation, local data folders, and manuscript drafts for the northwest Tanzania antimalarial drug-resistance mitigation study. The C++ model source snapshot and its environment specification are still to be added under `model/`.
 
 ## Contact
 
