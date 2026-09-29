@@ -73,10 +73,10 @@ The current project layout separates analysis code, local datasets, generated fi
 .
 ├── .gitignore              # Excludes Python caches and temporary files
 ├── README.md
-├── model/
-│   └── source_code/       # Placeholder for the C++ model source snapshot
+├── source_code/           # Frozen Temple-Malaria-Simulation v4.1.8 source
 ├── scenarios/
 │   └── inputs/             # Selected inputs for scenarios 004–007, by strategy
+├── sample_raw_data/        # 10 raw simulation runs for selected scenario 004 strategies
 ├── analysis/
 │   ├── README.md           # Figure workflows, inputs, outputs, and run commands
 │   ├── config/             # Plot labels and annotation configuration
@@ -93,7 +93,7 @@ The current project layout separates analysis code, local datasets, generated fi
     └── supplementary/
 ```
 
-The C++ source snapshot and table directories are still placeholders. Each scenario input folder preserves the source layout: `scenarios/inputs/<scenario>/<strategy>/input/`. Only `kag_beta.asc`, `kag_districts.asc`, `kag_initial_population.asc`, `kag_input.yml`, `kag_seasonality.csv`, and `kag_treatment.asc` are included there; simulation databases and generated CSVs are stored elsewhere. The model environment specification has not yet been added.
+The frozen model source is from the [`v4.1.8` branch](https://github.com/bonilab/Temple-Malaria-Simulation/tree/v4.1.8), commit `7acaedcfc317744145652708848834e96d5a48ef`, and is stored under `source_code/`. Each scenario input folder preserves the source layout: `scenarios/inputs/<scenario>/<strategy>/input/`. Only `kag_beta.asc`, `kag_districts.asc`, `kag_initial_population.asc`, `kag_input.yml`, `kag_seasonality.csv`, and `kag_treatment.asc` are included there. `sample_raw_data/004/` contains raw database runs 0–9 for `000-status-quo`, `001-basic-ASAQ`, and `070-tact-ALAQ-immediate`; the remaining runs and generated CSVs are stored elsewhere. The model environment specification has not yet been added.
 
 ## Reproducibility
 
@@ -119,15 +119,31 @@ Some source data may be subject to redistribution restrictions. Where redistribu
 
 If you use this repository, please cite the associated manuscript:
 
-> Nguyen TD, Ishengoma D, Ballard S-B, Zupko RJ, Farinha CC, et al.  
-> **Responding to the local emergence of partial artemisinin resistance in northwest Tanzania: a modelling study.**  
-> Manuscript in preparation.
+**Responding to the local emergence of partial artemisinin resistance in northwest Tanzania: a modelling study**
+
+Tran Dang Nguyen (1, 2), Deus Ishengoma (3, 4), Sarah-Blythe Ballard (5), Robert J Zupko (6), Carter C Farinha (1), Kien Trung Tran (1), Sarit Adhikari (1), Abdallah Lusasi (7), Daniel A Petro (1), Chao-Yi Tsai (1), Kefas Mugittu (8), Dunstan Bishanga (8), Daniel Rosen (9), Jessica Vernon (9), Oliver J Watson (10), Jonathan J Juliano (11), Jeff Bailey (12), Mwaka Kakolwa (8), Sigsbert Mkude (13), Celine Mandara (4), Naomi Serbantez, Chonge Kitojo, Sijenunu Aron (7), Samwel Lazaro (7), and Maciej F Boni (1).
+
+1. Institute for Genomics and Evolutionary Medicine, Department of Biology, Temple University, Philadelphia, PA, USA
+2. Center for Computational Epidemiology and Infectious Diseases, Ho Chi Minh City, Vietnam
+3. Ifakara Health Institute, Dar es Salaam, Tanzania
+4. National Institute for Medical Research, Dar es Salaam, Tanzania
+5. Department of International Health, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD
+6. Center for Infectious Disease Dynamics, Department of Biology, Pennsylvania State University, University Park, PA
+7. National Malaria Control Program, Dodoma, Tanzania
+8. Shinda Malaria Project, Ifakara Health Institute, Dar es Salaam, Tanzania
+9. MaishaMeds Full Name, City, Country
+10. Imperial
+11. UNC
+12. Brown
+13. Dhibiti Malaria Project, Population Services International, CITY, COUNTRY
+
+Manuscript in preparation.
 
 A complete citation will be added after publication.
 
 ## Development status
 
-This repository currently contains analysis scripts, figure outputs, analysis documentation, and local data folders for the northwest Tanzania antimalarial drug-resistance mitigation study. The C++ model source snapshot and its environment specification are still to be added under `model/`.
+This repository currently contains the analysis scripts, figure outputs, analysis documentation, local data folders, and the frozen model source snapshot for the northwest Tanzania antimalarial drug-resistance mitigation study. The model environment specification has not yet been added.
 
 ## Contact
 
