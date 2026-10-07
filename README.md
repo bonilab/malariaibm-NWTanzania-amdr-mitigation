@@ -73,6 +73,8 @@ The current project layout separates analysis code, local datasets, generated fi
 .
 ├── .gitignore              # Excludes Python caches and temporary files
 ├── README.md
+├── LICENSE                 # MIT License for original project code
+├── DATA_LICENSE.md         # CC BY 4.0 for project-generated data
 ├── source_code/           # Frozen Temple-Malaria-Simulation v4.1.8 source
 ├── scenarios/
 │   └── inputs/             # Selected inputs for scenarios 004–007, by strategy
@@ -114,6 +116,26 @@ The model uses data from multiple sources, including:
 - other publicly available epidemiological and antimalarial-resistance datasets.
 
 Some source data may be subject to redistribution restrictions. Where redistribution is not permitted, this repository will provide documentation and links to the original source rather than reproducing those data.
+
+## Licensing
+
+Original source code, scripts, and analysis pipelines developed for this
+repository are released under the [MIT License](LICENSE), unless otherwise
+stated. The frozen model snapshot in `source_code/` retains its upstream
+licensing terms: its [citation metadata](source_code/CITATION.cff) identifies
+BSD-3-Clause. It is excluded from this repository's MIT license grant, and
+upstream copyright and license notices must be retained. Other third-party
+code also remains subject to its original terms.
+
+Simulation outputs and derived datasets produced by this project and released
+in this repository are licensed under the [Creative Commons Attribution 4.0
+International (CC BY 4.0) License](DATA_LICENSE.md), unless otherwise stated.
+Third-party data and data obtained from external providers remain subject to
+their original terms and are not relicensed by this repository. These terms
+also apply to third-party inputs incorporated into derived datasets.
+
+The associated paper and supplementary material are governed by the license
+applied by the publisher or preprint platform.
 
 ## Citation
 

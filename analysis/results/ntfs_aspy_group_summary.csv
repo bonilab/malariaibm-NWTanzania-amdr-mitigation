@@ -1,0 +1,5 @@
+private_market,policy_group,policies,replicates_per_policy,average_of_policy_medians,lowest_policy_reduction_pct,highest_policy_reduction_pct,pooled_replicate_mean_monthly_tf,pooled_replicate_median_monthly_tf,pooled_replicates
+47%,two_ACT_ASAQ_ASPY,6,100,27601.6,40.4,41.3,27620.9,27598.2,600
+47%,three_ACT_ASAQ_DHAPPQ_ASPY,3,100,27693.6,40.7,41.0,27772.1,27713.8,300
+10%,two_ACT_ASAQ_ASPY,6,100,7217.5,72.7,73.9,7227.0,7188.0,600
+10%,three_ACT_ASAQ_DHAPPQ_ASPY,3,100,7330.7,72.7,73.3,7345.4,7322.4,300
