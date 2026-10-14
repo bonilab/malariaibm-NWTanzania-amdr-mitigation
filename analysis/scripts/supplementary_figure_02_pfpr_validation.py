@@ -62,11 +62,9 @@ def main() -> None:
         data=pixel_data, x="atlas_pfpr", y="model_pfpr", size="population",
         sizes=(30, 350), alpha=0.55, legend=False, ax=ax_a,
     )
-    sns.regplot(data=pixel_data, x="atlas_pfpr", y="model_pfpr", scatter=False, ax=ax_a,
-                line_kws={"linewidth": 2})
     ax_a.axline((0, 0), slope=1, linestyle="--", linewidth=1.5, color="black")
-    ax_a.set(xlim=(-1, 32), ylim=(-1, 32), xlabel="Atlas PfPR 2–10 in 2022 (%)",
-             ylabel="Mean simulated PfPR 2–10 in 2022 (%)", title="Pixel-level PfPR comparison")
+    ax_a.set(xlim=(-1, 32), ylim=(-1, 32), xlabel=r"MAP PfPR$_{2–10}$ in 2022 (%)",
+             ylabel=r"Mean simulated PfPR$_{2–10}$ in 2022 (%)", title="Pixel-level PfPR comparison")
     ax_a.text(0.02, 0.96, "A", transform=ax_a.transAxes, fontsize=18, fontweight="bold", va="top")
 
     district_order = sorted(DISTRICT_NAMES.values())
@@ -76,11 +74,11 @@ def main() -> None:
     )
     ax_b.axhline(0, linestyle="--", linewidth=1.5, color="black")
     ax_b.tick_params(axis="x", rotation=30)
-    ax_b.set(xlabel="District", ylabel="Model − Atlas PfPR 2–10\npercentage-point difference",
-             title="District-level model bias")
+    ax_b.set(xlabel="Region", ylabel="Model − MAP PfPR$_{2–10}$\npercentage-point difference",
+             title="Region-level model bias")
     ax_b.text(0.02, 0.96, "B", transform=ax_b.transAxes, fontsize=18, fontweight="bold", va="top")
 
-    fig.suptitle("Comparison of simulated PfPR 2–10 against Atlas estimates, 2022", fontsize=20, y=0.98)
+    fig.suptitle(r"Comparison of simulated PfPR$_{2–10}$ against MAP estimates, 2022", fontsize=20, y=0.98)
     fig.tight_layout()
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUTPUT_FILE, dpi=300, bbox_inches="tight")

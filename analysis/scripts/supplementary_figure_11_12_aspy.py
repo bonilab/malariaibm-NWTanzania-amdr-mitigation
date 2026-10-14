@@ -60,6 +60,18 @@ def plot_scenario(data: pd.DataFrame, scenario: str, output_name: str) -> Path:
         scenario_data["group"], categories=list(STRATEGY_GROUPS), ordered=True
     )
 
+    sns.set_context(
+        "paper",
+        font_scale=1.4,
+        rc={
+            "axes.titlesize": 15,
+            "axes.labelsize": 14,
+            "xtick.labelsize": 12,
+            "ytick.labelsize": 12,
+            "legend.fontsize": 11,
+            "legend.title_fontsize": 12,
+        },
+    )
     grid = sns.relplot(
         data=scenario_data,
         x="date",
@@ -76,7 +88,8 @@ def plot_scenario(data: pd.DataFrame, scenario: str, output_name: str) -> Path:
         errorbar=("pi", 90),
         facet_kws={"sharey": True, "sharex": True},
     )
-    grid.set_axis_labels("Year", "Hypothetical Pyronaridine Mutant Frequency")
+    grid.set_axis_labels("Year", "")
+    grid.figure.supylabel("Hypothetical Pyronaridine Mutant Frequency", x=0.01)
     grid.set(xlim=(pd.Timestamp("2025-01-01"), pd.Timestamp("2032-01-01")), ylim=(0, 0.1))
 
     for ax, group_name in zip(grid.axes.flat, STRATEGY_GROUPS):
@@ -95,7 +108,7 @@ def plot_scenario(data: pd.DataFrame, scenario: str, output_name: str) -> Path:
             y = float(by_date.loc[nearest_date]) + (strategy_index - 1) * 0.003
             aspy_label = next(part for part in strategy.split("-") if part.startswith("ASPY")).split("_")[0]
             color = tuple(max(0, channel - 0.2) for channel in palette[strategy])
-            ax.text(pd.Timestamp("2031-01-01"), y, aspy_label, fontsize=8, ha="left", va="center", color=color)
+            ax.text(pd.Timestamp("2031-01-01"), y, aspy_label, fontsize=11, ha="left", va="center", color=color)
 
     if grid._legend is not None:
         grid._legend.remove()

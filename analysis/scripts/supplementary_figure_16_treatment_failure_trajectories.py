@@ -2,6 +2,7 @@
 
 from pathlib import Path
 
+import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -115,6 +116,8 @@ def main() -> None:
                 )
                 ax.set_title(PUBLICATION_LABELS[scenario], fontsize=10)
                 ax.set_xlim(pd.Timestamp("2024-01-01"), pd.Timestamp("2032-01-01"))
+                ax.xaxis.set_major_locator(mdates.YearLocator(2))
+                ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
                 ax.axvline(pd.Timestamp("2026-01-01"), color="black", linestyle="--", linewidth=1.0, alpha=0.7)
                 ax.grid(True, which="major", axis="both", linewidth=0.5, alpha=0.5)
                 ax.tick_params(axis="x", rotation=45)

@@ -132,4 +132,4 @@ Run `python3 analysis/scripts/supplementary_figure_01_seasonality_calibration.py
 - Inputs: `data/processed/supplementary_figure_02/calibration_data.csv` and `district_pfpr_comparison.csv`.
 - Output: `../figures/supplementary/supplementary-figure-02.png`.
 
-Run `python3 analysis/scripts/supplementary_figure_02_pfpr_validation.py` from the repository root. The plot compares pixel-level PfPR estimates and the district-level model-minus-Atlas differences.
+Run `python3 analysis/scripts/supplementary_figure_02_pfpr_validation.py` from the repository root. The plot compares pixel-level PfPR estimates and the district-level model-minus-MAP differences.

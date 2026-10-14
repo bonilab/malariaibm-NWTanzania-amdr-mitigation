@@ -3,3 +3,5 @@ private_market,policy_group,policies,replicates_per_policy,average_of_policy_med
 47%,three_ACT_ASAQ_DHAPPQ_ASPY,3,100,27693.6,40.7,41.0,27772.1,27713.8,300
 10%,two_ACT_ASAQ_ASPY,6,100,7217.5,72.7,73.9,7227.0,7188.0,600
 10%,three_ACT_ASAQ_DHAPPQ_ASPY,3,100,7330.7,72.7,73.3,7345.4,7322.4,300
+47%,all_nine_ASAQ_based_ASPY_MFT,9,100,27632.2,40.4,41.3,27671.3,27626.0,900
+10%,all_nine_ASAQ_based_ASPY_MFT,9,100,7255.2,72.7,73.9,7266.5,7226.1,900

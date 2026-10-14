@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -36,6 +37,16 @@ def format_labels(rows: list[list[str]]) -> list[str]:
     nonempty = [row for row in rows if row]
     if not nonempty:
         return []
+    # Hyphenate spaces within each label cell, while retaining the padded
+    # spaces between columns so the monospace columns stay aligned.
+    rows = [
+        [
+            re.sub(r"Delay-(\d+y)", r"\1-delay", re.sub(r"\s*-\s*", "-", cell).replace(" ", "-"))
+            for cell in row
+        ]
+        for row in rows
+    ]
+    nonempty = [row for row in rows if row]
     first_col_width = max(len(row[0]) for row in nonempty) + 1
     cell_width = 15
     formatted = []
@@ -43,12 +54,18 @@ def format_labels(rows: list[list[str]]) -> list[str]:
         if not row:
             formatted.append("")
             continue
-        line = f"{row[0]:<{first_col_width}} "
-        rest_cells = [f"{item:<{cell_width}}" for item in row[1:5]]
-        rest_cells.extend([" " * cell_width] * (4 - len(rest_cells)))
-        line += "".join(rest_cells)
-        if line.startswith("Kagera"):
-            line = line[:-7]
+        if row[0] == "Kagera-first":
+            line = (
+                f"{row[0]:<{first_col_width}} "
+                f"{row[1]:<{cell_width}}"
+                f"{row[2]}"
+            )
+            line = line.ljust(first_col_width + 1 + 4 * cell_width)
+        else:
+            line = f"{row[0]:<{first_col_width}} "
+            rest_cells = [f"{item:<{cell_width}}" for item in row[1:5]]
+            rest_cells.extend([" " * cell_width] * (4 - len(rest_cells)))
+            line += "".join(rest_cells)
         formatted.append(line)
     return formatted
 
@@ -118,6 +135,9 @@ def make_figure(setting_47: str, setting_10: str, output_relative: str) -> Path:
             colors_47[index] = "black"
 
     fig, (ax1, ax2) = plt.subplots(figsize=(16, 24), ncols=2, sharey=True)
+    xmin = min(comparison["rel_47"].min(), comparison["rel_10"].min())
+    xmax = max(comparison["rel_47"].max(), comparison["rel_10"].max())
+    ax1.set_xlim(xmin - 12, xmax + 10)
     ax1.barh(y, comparison["rel_10"].to_numpy(), color="#9ecae1", label="10% Private Market")
     ax1.barh(y, comparison["rel_47"].to_numpy(), color=colors_47, label="47% Private Market (reference)")
     ax1.axvline(0, color="black", linewidth=1)
@@ -128,9 +148,6 @@ def make_figure(setting_47: str, setting_10: str, output_relative: str) -> Path:
     ax1.xaxis.set_major_formatter(FuncFormatter(lambda value, _: f"{value:.0f}%"))
     ax1.set_xlabel("Reduction in treatment failures\ncompared to status quo AL use", fontsize=18)
     ax1.grid(axis="both", linestyle="--", alpha=0.6)
-    xmin = min(comparison["rel_47"].min(), comparison["rel_10"].min())
-    xmax = max(comparison["rel_47"].max(), comparison["rel_10"].max())
-    ax1.set_xlim(xmin - 12, xmax + 10)
     ax1.set_ylim(-0.5, len(order) - 0.5)
     ax1.tick_params(axis="x", labelsize=14)
     ax1.legend(

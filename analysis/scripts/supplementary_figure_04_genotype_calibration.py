@@ -109,7 +109,18 @@ def main() -> None:
     plot_data = extract_plot_data(all_data)
     reference["date"] = pd.to_datetime(reference["date"]).dt.date
 
-    sns.set_context("paper")
+    sns.set_context(
+        "paper",
+        font_scale=1.6,
+        rc={
+            "axes.titlesize": 18,
+            "axes.labelsize": 17,
+            "xtick.labelsize": 15,
+            "ytick.labelsize": 15,
+            "legend.fontsize": 14,
+            "legend.title_fontsize": 15,
+        },
+    )
     grid = sns.relplot(
         data=plot_data,
         x="datetime",

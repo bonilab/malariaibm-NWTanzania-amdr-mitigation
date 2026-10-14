@@ -75,6 +75,26 @@ def main() -> None:
         pooled_replicates="size",
     ).reset_index()
     averages = averages.merge(pooled, on=["private_market", "policy_group"], validate="one_to_one")
+
+    # Add a combined summary for the six two-ACT and three three-ACT
+    # ASAQ-based policies discussed together in the manuscript.
+    all_nine = result.groupby("private_market", sort=False).agg(
+        policies=("scenario", "count"),
+        replicates_per_policy=("replicates", "min"),
+        average_of_policy_medians=("median_monthly_tf", "mean"),
+        lowest_policy_reduction_pct=("reduction_vs_status_quo_pct", "min"),
+        highest_policy_reduction_pct=("reduction_vs_status_quo_pct", "max"),
+    ).reset_index()
+    all_nine["policy_group"] = "all_nine_ASAQ_based_ASPY_MFT"
+    pooled_all_nine = pd.concat(replicate_parts, ignore_index=True).groupby(
+        "private_market", sort=False
+    ).monthly_tf.agg(
+        pooled_replicate_mean_monthly_tf="mean",
+        pooled_replicate_median_monthly_tf="median",
+        pooled_replicates="size",
+    ).reset_index()
+    all_nine = all_nine.merge(pooled_all_nine, on="private_market", validate="one_to_one")
+    averages = pd.concat([averages, all_nine[averages.columns]], ignore_index=True)
     averages.to_csv(average_output, index=False, float_format="%.1f")
     for market, group in result.groupby("private_market", sort=False):
         print(f"\nPrivate market: {market}")
